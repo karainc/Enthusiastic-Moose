@@ -14,7 +14,7 @@ MooseSays("I really am enthusiastic");
 
 // Ask a question
 
-void CanadaQuestion()
+void AllMooseQuestions()
 {
     bool isTrue = MooseAsks("Is Canada real?");
     if (isTrue)
@@ -27,7 +27,6 @@ void CanadaQuestion()
     }
 }
 
-void EnthusiasticQuestion()
 {
     bool isEnthusiastic = MooseAsks("Are you enthusiastic?");
     if (isEnthusiastic)
@@ -39,8 +38,6 @@ void EnthusiasticQuestion()
         MooseSays("You should try it!");
     }
 }
-
-void LoveCSharpQuestion()
 {
     bool doesLoveCSharp = MooseAsks("Do you love C# yet?");
     if (doesLoveCSharp)
@@ -53,7 +50,6 @@ void LoveCSharpQuestion()
     }
 }
 
-void SecretQuestion()
 {
     bool wantsSecret = MooseAsks("Do you want to know a secret?");
     if (wantsSecret)
@@ -119,9 +115,7 @@ bool MooseAsks(string question)
     };
 } 
 // Ask some questions
-CanadaQuestion();
-EnthusiasticQuestion();
-LoveCSharpQuestion();
-SecretQuestion();
+AllMooseQuestions();
+
 }
 
